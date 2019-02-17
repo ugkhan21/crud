@@ -1,0 +1,47 @@
+/* line 2, App/sass/style.scss */
+body {
+  background-color: #F1EFF1;
+  margin: 0;
+  padding: 0; }
+  /* line 7, App/sass/style.scss */
+  body .preload {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: #F1EFF1;
+    background-size: cover;
+    z-index: 200; }
+  /* line 16, App/sass/style.scss */
+  body .preload::after {
+    content: '';
+    margin: auto;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: orangered;
+    animation: spin 1s linear infinite;
+    position: absolute; }
+
+@keyframes spin {
+  0% {
+    transform: scale(0);
+    opacity: 1; }
+  100% {
+    transform: scale(1);
+    opacity: 0; } }
+  /* line 42, App/sass/style.scss */
+  body p {
+    color: #fff; }
+  /* line 46, App/sass/style.scss */
+  body div {
+    border: 5px; }
+  /* line 50, App/sass/style.scss */
+  body div {
+    color: #fff; }
+  /* line 54, App/sass/style.scss */
+  body.livereload {
+    color: red; }

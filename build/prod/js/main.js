@@ -1,0 +1,1 @@
+$(document).ready(function(){require("./utils/libUtils");$loader=$(".preload"),$loader.removeClass("preload")});

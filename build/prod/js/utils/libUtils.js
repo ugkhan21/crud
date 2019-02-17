@@ -1,0 +1,1 @@
+var libUtils={logger:function(l){console&&console.log(l)}};module.exports=libUtils;
